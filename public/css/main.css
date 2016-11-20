@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5 {color: #4078C0}
+
+.chart {min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto}
+.blankslate {margin-bottom: 50px;background-color: #4078C0;}
+.blankslate a:hover h1{color: #0b458c !important;}
+.blankslate a {text-decoration: none}
+.blankslate h1 {color: #fff !important;}
+.blankslate p {font-size: 18px;color: #fff !important}
+.blankslate iframe {margin:5px auto;}
+.input-block {width: 98%;}
+.alt-container {height: 100%;width: 800px;margin: 150px auto 0 auto;text-align: center}
+.alt-container h1 {margin: 45px 0 !important}
+.alt-container img {margin: auto;width: 160px;}
+.username input {height: 50px;font-size: 18px;}
+.username button {height: 50px;}
+.error {color: #ff4949; padding: 10px;}
+.notfound {background-color: #ff4949;margin 100px;}
+.notfound h1 {color: #fff;margin: 260px auto;}
+.footer {color: #555;font-size: 20px;position: fixed;bottom: 0;
+  left: 0;height: 50px;background-color: #2f4572;width: 100%;text-align: left}
+.footer a {color:#f9f9f9;text-decoration: none;font-size: 17px;line-height: 50px;}
+.margin{margin: 0 90px;}

@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .alt-container
+    img(src="/img/twitterlogo.png")
+    h1 Twitter Sentiment Analysis!
+    if error
+      div.error #{error}
+    .username
+      .input-group
+        input(type="text", placeholder="Enter Twitter Username")
+        span.input-group-button
+          button.btn.btn-primary
+            span.octicon Devam Et!
+
+    div.footer
+      .container
+        div.margin
+          a(href="http://hashimshafiq.azurewebsites.net/") © 2016 · Muhammad Hashim Shafiq
